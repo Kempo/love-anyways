@@ -1,10 +1,38 @@
 <template>
   <div>
     <nuxt />
+    <footer>
+      <div class="d-flex justify-content-end">
+        <div class="links">
+          <p><b>Contact</b></p>
+          <ul>
+            <li>Facebook</li>
+            <li>Instagram</li>
+            <li>Email</li>
+          </ul>
+        </div>
+      </div>
+      <p>Made with ❤️ in Seattle</p>
+    </footer>
   </div>
 </template>
 
 <style>
+.links {
+  margin-right: 25px;
+}
+
+footer {
+  padding: 40px 40px 10px 40px;
+  background-color: rgba(0, 0, 0, 0.03);
+}
+
+ul {
+  margin: 0px; /* just removing default styles */
+  padding: 0px;
+  list-style-type: none;
+}
+
 html {
   font-family: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI',
     Roboto, 'Helvetica Neue', Arial, sans-serif;

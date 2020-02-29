@@ -3,7 +3,7 @@
     <div>
       <logo />
       <h1 class="title">
-        ljoijjo
+        Love Anyways
       </h1>
       <h2 class="subtitle">
         Website for Love Anyways
@@ -12,21 +12,6 @@
         <a href="https://nuxtjs.org/" target="_blank" class="button--green">
           Documentation
         </a>
-      </div>
-      <b-button variant="success">Button</b-button>
-      <div>
-        <b-card
-          title="Card Title"
-          img-src="https://picsum.photos/600/300/?image=25"
-          img-alt="Image"
-          img-top
-          tag="article"
-          style="max-width: 20rem;"
-          class="mb-2"
-        >
-          <b-card-text>Some texrt</b-card-text>
-          <b-button href="#" variant="primary">Go somewhere</b-button>
-        </b-card>
       </div>
     </div>
   </div>
