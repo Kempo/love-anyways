@@ -1,6 +1,15 @@
 <template>
   <div>
-    <nuxt />
+    <header class="d-flex">
+      <nuxt-link to="/">Home</nuxt-link>
+      <span class="flex-grow-1"></span>
+      <ul class="d-flex flex-row">
+        <li class="nav-item"><nuxt-link to="/shop">Shop</nuxt-link></li>
+        <li class="nav-item"><nuxt-link to="/team">Team</nuxt-link></li>
+        <li class="nav-item"><nuxt-link to="/contact">Contact</nuxt-link></li>
+      </ul>
+    </header>
+    <nuxt class="container" />
     <footer>
       <div class="d-flex justify-content-end">
         <div class="links">
@@ -18,8 +27,22 @@
 </template>
 
 <style>
+header {
+  padding: 25px 50px 25px 50px;
+  background-color: rgba(0, 0, 0, 0.03);
+}
 .links {
   margin-right: 25px;
+}
+
+.nav-item {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.container {
+  margin: 0 auto;
+  min-height: 100vh;
 }
 
 footer {
